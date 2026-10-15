@@ -1,0 +1,19 @@
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; }
+thead { background: #f7f9f4; color: #64775f; }
+th, td { padding: 17px 24px; border-top: 1px solid #e8ece4; white-space: nowrap; }
+thead th { font-size: 10px; font-weight: 550; letter-spacing: .3px; }
+tbody th { font-weight: 500; }
+tbody tr:hover { background: #fbfcf8; }
+.numeric { text-align: right; font-variant-numeric: tabular-nums; }
+.total-column { background: #f6f9f0; color: #285a3c; }
+.customer-name { display: block; font-weight: 550; }
+.customer-id { display: block; color: #60745b; font-size: 10px; margin-top: 5px; letter-spacing: .3px; }
+.transaction-scroll { max-height: 355px; }
+.transaction-scroll thead { position: sticky; top: 0; background: #f7f9f4; z-index: 1; }
+.transaction-scroll td, .transaction-scroll th { padding-top: 15px; padding-bottom: 15px; }
+.transaction-id { color: #526b50; font-size: 11px; font-variant-numeric: tabular-nums; }
+.transaction-scroll time { color: #6b7966; font-size: 12px; }
+.points-chip { display: inline-block; min-width: 42px; text-align: center; border-radius: 5px; padding: 4px 8px; background: #edf4e7; color: #38633b; font-size: 11px; font-weight: 600; }
+.zero-points { display: inline-block; min-width: 42px; text-align: center; color: #5d7156; font-size: 11px; }
+@media (max-width: 580px) { th, td { padding: 15px 16px; } }
